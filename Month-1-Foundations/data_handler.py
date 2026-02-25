@@ -1,13 +1,13 @@
 # --- DAY 2: Variables and Data Types ---
 
 # 1. String (Text) - Used for names, paths, or status
-system_name = "AI-Integration-Agent"
+system_name = input("Enter the system name: ")
 
 # 2. Integer (Whole Numbers) - Used for counts or ports
-port_number = 8080
+port_number = int(input("Enter the port number: "))
 
 # 3. Float (Decimals) - Used for timestamps or precise values
-uptime_hours = 1.5
+uptime_hours = float(input("Enter uptime hours: "))
 
 # 4. Boolean (True/False) - Used for logic gates
 is_active = True
