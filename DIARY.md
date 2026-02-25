@@ -11,10 +11,9 @@
 ### Week 1: The Handshake
 - [x] Environment Checked
 - [x] Monthly Folders Created
-- [x] First Python Script (`health_check.py`)
-- [x] First GitHub Push
-- [x] Day 2: Variables & Data Types (data_handler.py)
-
+## Month 1: Python Foundations
+- [x] Day 1: Git Setup & Health Check script
+- [x] Day 2: Variables, F-Strings, and User Input (data_handler.py)
 ---
 
 ## ✍️ Entry: Feb 24, 2026
