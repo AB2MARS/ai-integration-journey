@@ -11,8 +11,9 @@
 ### Week 1: The Handshake
 - [x] Environment Checked
 - [x] Monthly Folders Created
-- [ ] First Python Script (`health_check.py`)
-- [ ] First GitHub Push
+- [x] First Python Script (`health_check.py`)
+- [x] First GitHub Push
+- [x] Day 2: Variables & Data Types (data_handler.py)
 
 ---
 
