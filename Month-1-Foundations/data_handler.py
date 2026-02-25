@@ -17,6 +17,7 @@ print(f"--- {system_name} Report ---")
 print(f"Status Active: {is_active}")
 print(f"Listening on Port: {port_number}")
 print(f"Current Uptime: {uptime_hours} hours")
+print(f"if we double the ports, we would need: {port_number *2}")
 
 # Simple Logic Check
 if is_active:
