@@ -25,3 +25,19 @@ print(f"\n[RESULT] {label} {action}")
 # 4. Infrastructure "Sanity Check" (Pydantic-style logic)
 is_valid_packet = (0 <= system_load <= 100)
 print(f"Packet Integrity Verified: {is_valid_packet}")
+
+# --- Modern Python 3.13 "Match-Case" Router ---
+
+status = int(input("Enter System Status Code: "))
+
+match status:
+    case 200 | 201:
+        print("✅ Traffic Authorized: Proceeding to AI Agent.")
+    case 401 | 403:
+        print("🔒 Security Block: Unauthorized Access. Logged.")
+    case 404:
+        print("🔎 Resource Missing: Checking backup storage...")
+    case 500 | 502 | 503:
+        print("💣 Infrastructure Error: Triggering failover protocol.")
+    case _:
+        print("❓ Unknown Status: Escalating to Human.")
